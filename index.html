@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cennik</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.google.com/specimen/Manrope">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Simple, traffic-based pricing</h1>
+    <p>Sign-up for our 30-day trial. No credit card required.</p>
+    <div class="pricing-box">
+
+      <div class="pricing">
+        <div class="pageviews">100K PAGEVIEWS</div>
+        <input type="range" min="1" max="5" value="3" class="slider" id="pageviewSlider">
+        <div class="price">$16.00 <span>/ month</span></div>
+      </div>
+
+      <div class="billing-options">
+        <label>
+          Monthly Billing <input type="checkbox" name="billing">
+        </label>
+        <label class="yearly-billing">
+          Yearly Billing
+          <span class="discount">- 25%</span>
+        </label>
+      </div>
+
+      <hr>
+
+      <div class="features-and-cta-button">
+
+        <ul class="features">
+          <li>Unlimited websites</li>
+          <li>100% data ownership</li>
+          <li>Email reports</li>
+        </ul>
+
+        <button class="cta-button">Start my trial</button>
+
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
